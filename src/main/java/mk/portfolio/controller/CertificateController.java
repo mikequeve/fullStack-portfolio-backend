@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@CrossOrigin(value = "https://mike-vega.dev")
+@CrossOrigin(value = "https://mike-vega.dev/")
 public class CertificateController {
   private static final Logger logger = LoggerFactory.getLogger(CertificateController.class);
 
